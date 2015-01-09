@@ -14,8 +14,8 @@ describe("String#word_counter") do
     expect("Oh my GOSH".word_counter("gosh")).to eq(1)
   end
   
-#   it("accounts for partial words (and punctuation)") do
-#      expect("I love programming. Programming rocks my world!".word_counter("programming")).to eq(2)
-#   end
+  it("accounts for punctuation") do
+     expect("I love programming. Yay programming!".word_counter("programming")).to eq(2)
+  end
   
 end
