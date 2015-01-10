@@ -1,2 +1,8 @@
-<h1>And the results are in!</h1>
-<h3>Your word appeared <%= @count %> times in your sentence.</h3>
+<div class = "jumbotron">
+  <h1>And the results are in!</h1>
+  <h4>Drumroll please...</h4>
+</div>
+
+<h3>Your word <span class = "accent">"<%= @find %>"</span> appeared <span class = "accent"><%= @count %></span> <%= @singular_check %> in your entry: <span class = "accent">"<%= @string_input %>"</span>.</h3>
+
+<a href="./" class="btn btn-info btn-lg active" role="button">Play again?</a>

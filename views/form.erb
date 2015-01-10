@@ -1,4 +1,9 @@
-<h1>Welcome to Word Counter App!</h1>
+<div class = "jumbotron">
+  <h1>Welcome to the Word Counter App!</h1>
+  <h4>Where a computer counts words so you can do better things with your time, like make sure the computer did it right.</h4>
+</div>
+
+<img src ="counting_stars.jpg" alt ="A picture of people counting stars" id = "pic">
 
 <form action="/results">
   <div class="form-group">
@@ -6,8 +11,8 @@
     <input id="words" name="words" class="form-control" type="text">
   </div>
   <div class="form-group">
-    <label for="find">What word would you like to know the frequency of in your words above?</label>
+    <label for="find">What word would you like to count in what you typed above?</label>
     <input id="find" name="find" class="form-control" type="text">
   </div>
-  <button type="submit" class="btn">Submit</button>
+  <button type="submit" class="btn btn-info btn-lg active">Find frequency...</button>
 </form>
