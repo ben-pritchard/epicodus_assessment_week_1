@@ -7,9 +7,9 @@ You will seriously be like: "Woah"
 
 SETUP INSTRUCTIONS
 
-First, make sure Sinatra is on stage with your app.rb. Then open a web browser and go to:
+First, make sure Sinatra is on stage with your app.rb. Then open a web browser and go to the corresponding local host:
 
-http://localhost:3000/
+example: http://localhost:4567/
 
 There the user will be prompted to enter the word to count as well as the string.
 

@@ -3,7 +3,7 @@ class String
   define_method(:word_counter) do |to_find|
 
     # the gsub function removes all punctuation
-    word_array = self.downcase().gsub(/[^a-z0-9\s]/i, '').split(" ")
+    word_array = downcase().gsub(/[^a-z0-9\s]/i, '').split(" ")
 
     final_count = 0
 
